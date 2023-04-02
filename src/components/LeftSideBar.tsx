@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 export function LeftSideBar() {
   return (
     <div id="left-side-bar">

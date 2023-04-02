@@ -32,3 +32,63 @@ ul {
 #left-side-bar .tabs {
   flex-grow: 1;
 }
+
+.profile-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-layout img {
+  border-radius: 50%;
+}
+
+.profile-layout .text {
+  flex-grow: 1;
+}
+
+#right-side-bar {
+  padding-top: 30px;
+  width: 20rem;
+  margin: 0 30px;
+}
+
+#right-side-bar button {
+  all: unset;
+  color: #0095f6;
+  font-weight: 600;
+  font-size: small;
+}
+
+.footer {
+  width: 100%;
+  font-size: 0.7rem;
+  word-break: keep-all;
+}
+
+.footer > div {
+  margin: 1rem 0;
+}
+
+.footer span:not(:last-child)::after {
+  content: "\00B7";
+  margin: 0 0.25em 0 0.25em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+#recommend {
+  padding: 8px 0;
+}
+
+#recommend .desc {
+  color: #8d949e;
+  font-size: 11px;
+}
