@@ -92,3 +92,29 @@ ul {
   color: #8d949e;
   font-size: 11px;
 }
+
+#main {
+  margin: 0 16px;
+}
+
+#story {
+  display: flex;
+  padding: 16px 0;
+  margin-top: 32px;
+}
+
+#story li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+#story li img {
+  border-radius: 50%;
+}
+
+.story-profile {
+  color: #8d949e;
+  font-size: 12px;
+}

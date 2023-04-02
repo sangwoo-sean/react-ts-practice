@@ -1,3 +1,11 @@
+import { Feed } from "./Feed";
+import { Story } from "./Story";
+
 export function Main() {
-  return <div>hello</div>;
+  return (
+    <div id="main">
+      <Story />
+      <Feed />
+    </div>
+  );
 }
