@@ -61,17 +61,17 @@ ul {
   font-size: small;
 }
 
-.footer {
+#right-side-bar .footer {
   width: 100%;
   font-size: 0.7rem;
   word-break: keep-all;
 }
 
-.footer > div {
+#right-side-bar .footer > div {
   margin: 1rem 0;
 }
 
-.footer span:not(:last-child)::after {
+#right-side-bar .footer span:not(:last-child)::after {
   content: "\00B7";
   margin: 0 0.25em 0 0.25em;
 }
@@ -117,4 +117,37 @@ ul {
 .story-profile {
   color: #8d949e;
   font-size: 12px;
+}
+
+#feed {
+  width: 468px;
+}
+
+#feed .header {
+  display: flex;
+}
+
+#feed .title {
+  flex-grow: 1;
+}
+
+#feed .header img {
+  border-radius: 50%;
+}
+
+#feed .main {
+}
+
+#feed .main img {
+}
+
+#feed .footer {
+}
+
+#feed .footer img {
+  padding: 8px;
+}
+
+.card {
+  margin: 1rem 0;
 }

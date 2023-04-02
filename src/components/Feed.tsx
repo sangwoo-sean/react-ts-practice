@@ -1,3 +1,11 @@
+import Card from "./Card";
+
 export function Feed() {
-  return <div>feed</div>;
+  return (
+    <div id="feed">
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
 }
